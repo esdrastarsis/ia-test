@@ -1,8 +1,8 @@
 # Detector de sons usando IA com TensorFlow (Palmas ou estalos de dedo)
 
-### Execucao
+### Execução
 
-No diretorio do projeto crie o ambiente virtual do Python (venv):
+No diretório do projeto crie o ambiente virtual do Python (venv):
 
 ```
 python -m venv ./ia-venv
@@ -12,15 +12,15 @@ Entre no ambiente virtual:
 
 (Linux)
 ```
-source ./ia-venv/Scripts/activate
+source ./ia-venv/bin/activate
 ```
 
 (Windows)
 ```
-.\ia-venv\Scripts/activate.bat
+.\ia-venv\Scripts\activate.bat
 ```
 
-Instale as dependencias nesse ambiente virtual:
+Instale as dependências nesse ambiente virtual:
 
 ```
 python -m pip install numpy sounddevice tensorflow
